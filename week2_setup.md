@@ -1,14 +1,14 @@
 # Introduction
 
-This entry will go over the setup of our groups Github repository, and go into detail 
+This entry will go over the setup of our group Github repository, and go into detail 
 about some of the challenges involved when creating our development environment.
 
-# The creation of the github repository
+# The creation of the GitHub repository
 
 We decided to create a GitHub for all the team members involved with the group project.
 To stay in touch with the group members and to delegate tasks we made a discord server 
 with all the members. We created a task board within the GitHub repository with the 4 
-tasks given to us in the practical
+tasks that were given to us in the practical.
 
 
 
