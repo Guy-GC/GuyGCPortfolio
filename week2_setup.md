@@ -3,12 +3,18 @@
 This entry will go over the setup of our group Github repository, and go into detail 
 about some of the challenges involved when creating our development environment.
 
-# The creation of the GitHub repository
+# The Creation of the GitHub Repository
 
-We decided to create a GitHub for all the team members involved with the group project.
-To stay in touch with the group members and to delegate tasks we made a discord server 
-with all the members. We created a task board within the GitHub repository with the 4 
-tasks that were given to us in the practical.
+We were given the task by our lecturers of creating a GitHub repository with all the team 
+members involved in the group project, creating an integrated taskboard in GitHub, cloning
+the shared repository on Visual Studio, and making sure Visual Studio is properly configured 
+(installing the .NET MAUI template). To stay in touch with the group members, delegate tasks,
+or even ask for help on how to use GitHub we made a discord server with all the members. We 
+then made the GitHub repository naming it after our team name given to us, Green Team. We 
+created a task board within the GitHub repository by going to the projects tab and clicking
+'new project'. When we created the project board we made 3 columns on the board which are:
+todo, In Progress, and Done. We then put the 4 tasks given to us on the task board in the
+In Progress column
 
 
 
