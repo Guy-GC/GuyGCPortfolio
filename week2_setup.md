@@ -26,8 +26,30 @@ the tasks on the task board in the 'Done' column.
 
 # Reflection
 
-There are a couple of things that
+There are a couple of things that as a group, or the configuration of our GitHub repository
+we could have done differently. There are also some possible limitations to our configuration.
 
+## Experience
+
+GitHub is a difficult tool to learn for beginners because of the amount of things the user can 
+do and this can make the new user confused and a bit overwhelmed. I think this could impact the
+group at the start of the project however, I think over time more people will understand the website
+and maybe use it more even after the project is finished.
+
+## Github
+
+One alternative to the configuration we have is using a different website other than GitHub.
+There are different sites that offer close to the same as Github albeit maybe less popular,
+like Gitlab or BitBucket. This would mean that everyone in the group could be learning how
+to use the other website rather than some people having lots of experience using GitHub and
+some who haven't used it at all.
+
+## Visual Studio
+
+I think Visual Studio is the correct choice for our configuration. Last year, we used Intellij
+when we used GitHub because we were using Java for the coding part of the assignment. For this
+module, we are going to be using C# which is probably best if we use Visual Studio to clone the
+GitHub Repository.
 
 
 
