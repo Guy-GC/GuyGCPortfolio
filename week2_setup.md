@@ -14,11 +14,20 @@ then made the GitHub repository naming it after our team name given to us, Green
 created a task board within the GitHub repository by going to the projects tab and clicking
 'new project'. When we created the project board we made 3 columns on the board which are:
 todo, In Progress, and Done. We then put the 4 tasks given to us on the task board in the
-In Progress column. We then configured our Visual Studio correctly with some people having
+In Progress column. Next, we configured our Visual Studio correctly with some people having
 to install Visual Studio, some having to install the .NET MAUI template, and some having
 their Visual Studio already configured correctly. We then cloned the repository by copying
-the URL into Visual Studio. Once every task given to us was finished we put all the tasks on
-the task board in the 'Done' column.
+the URL from GitHub into Visual Studio. Once every task given to us was finished we put all 
+the tasks on the task board in the 'Done' column.
+
+# Screenshots
+
+
+
+# Reflection
+
+There are a couple of things that
+
 
 
 
