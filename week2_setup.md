@@ -22,6 +22,31 @@ the tasks on the task board in the 'Done' column.
 
 # Screenshots
 
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/ProjectBoard.PNG"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.1 - Projectboard in repository</b>
+</figcaption>
+</figure>
+
+\
+This screenshot shows our project board in our shared repository. We can see the three
+columns: todo, in progress, and done. All of the tasks given to us have been put in the
+done column.
+  
+
+  
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/VisualConfig.png"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.2 - Visual Studio Configuration</b>
+</figcaption>
+</figure>
+
+\
+This screenshot shows the templates installed for Visual Studio. As you can see by the highlighted
+template I have installed the .NET MAUI template as tasked to us by our lecturers.
+
 
 
 # Reflection
@@ -51,66 +76,9 @@ when we used GitHub because we were using Java for the coding part of the assign
 module, we are going to be using C# which is probably best if we use Visual Studio to clone the
 GitHub Repository.
 
-
-
-
-
-
-
-
-# Setup
-
-This section documents your practical work in week 2.
-
-The main requirements are to show that:
-
-1. Your development environment is correctly set up
-2. You understand the setup including potential alternative configuration settings
-
-## Environment configuration
-
-Here, you should include appropriate screenshots with additional commentary. 
-
-**DO**
-
-* Place your image files in the `images` folder
-* Choose your screenshots carefully so that they communicate the appropriate information.
-  Many screenshots with no clear purpose or with trivial differences are of little value.
-* Provide <ins>descriptive</ins> commentary to explain why the screenshot is included. 
-  what it shows and point out any particularly significant details.
-* Modify your screenshots - for example, by adding arrows, outlines or other highlighting 
-  techniques - to enhance their communication value.
-* Remove unnecessary material from your screenshots such as toolbars, other windows and 
-  computer desktop to eliminate distractions.
-* Ensure that any important content is clearly legible. Pay particular attention to text
-  size and image resolution.
-* Use [numbered captions](https://towardsdev.com/3-ways-to-add-a-caption-to-an-image-using-markdown-f2ca30562be6) 
-  as labels for images. Also, use the caption numbers to refer to images in your text.
-
-**DON'T**
-
-* Expect the reader to understand your reasons for including a screenshot. If you can't
-  explain it, the screenshot will not do the job on its own.
-* Include self-evident comments. For example, don't simply list the values used on a
-  configuration page if those values are clearly visible in the screenshot.
-
-## Reflection
-
-For this section, decide what points are worth making and structure your content 
-appropriately.
-
-**DO**
-
-* Use sub-headings to differentiate between sections
-* Provide <ins>reflective</ins> commentary that discusses, for example, limitations of
-  your current configuration, how your configuration is appropriate for the current 
-  project, alternative configuration that might be appropriate in ther circumstances, 
-  etc.
-* Mention any difficulties you had setting up your working environment and how you 
-  resolved them
-
-**DON'T**
-
-* Repeat the descriptive commentary from point 1
-* Give a blow-by-blow account of everything you did. Instead, you should highlight 
-  the important points.
+\
+I did have one issue that took some time to resolve which was installing the .NET MAUI template.
+I already had Visual Studio installed on my laptop but the template wasn't installed. I tried using
+powershell but had problems going to the correct directory. I eventually got it installed, I had
+go into Visual Studio installer and modify the package. The Visual Studio configuration
+[screenshot](https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/VisualConfig.png) is where i modified the package.
