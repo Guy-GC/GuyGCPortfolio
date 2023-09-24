@@ -6,8 +6,16 @@ to complete the issue then create a pull request.
 # Workflow
 
 We were given the task this week to decide on a standard team workflow that we should follow as a group when we work on
-a GitHub issue, import the list of issues appointed to us into our group project and assign an issue to each person in
-the group and complete it with the team workflow.
+a GitHub issue, import the list of issues appointed to us into our group project, assign an issue to each person in
+the group and complete it with the team workflow. Our standard team workflow is to create a branch to make changes to a
+file or multiple files and then create a pull request to make sure everything is correct if any errors arise then the
+changes can be reviewed and then the changes can be merged into the main branch. When we established the team workflow
+we imported the list of issues into our group project, each issue is similar to the other, and the issues are formatted
+like 'As a system administrator, I want to maintain reference values for (blank)'. Some examples are 'equipment types',
+'continents', 'system types' etc. The goal for each issue is to be able to print the values out. Once the issues are
+imported, an issue is then assigned to a person within the group and is moved from the to-do column in the task board to
+the in-progress column. I then created changes within our repository in a branch that I created for me to fix the issue 
+within and then once I created the solution I then made a pull request to later be merged into the main branch.
 
 
 
