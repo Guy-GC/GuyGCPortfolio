@@ -17,6 +17,33 @@ imported, an issue is then assigned to a person within the group and is moved fr
 the in-progress column. I then created changes within our repository in a branch that I created for me to fix the issue 
 within and then once I created the solution I then made a pull request to later be merged into the main branch.
 
+# Screenshots
+
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/Issue.PNG"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.1 - The Assigned Issue</b>
+</figcaption>
+</figure>
+
+\
+This screenshot shows the issue I was assigned, my profile picture is on the top left of the image which shows that it
+was personally assigned to me and this task is in the 'in-progress' column. My issue is to maintain reference values
+for alert types. Here is the [link](https://github.com/users/wardliii/projects/1/views/1) to the task board with the issue 
+I was given.
+
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/Branch.PNG"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.2 - New Branch from Main</b>
+</figcaption>
+</figure>
+
+\
+This screenshot shows that I have used a different branch within our GitHub repository which is part of the standard team
+workflow of creating a branch to make edits to the files within the repository and then making a pull request to eventually
+merge the branches.
+
 # Reflection
 
 There are a few things looking back that I or the group could have done differently. Here are some changes looking back
@@ -35,76 +62,12 @@ If there is more than one admin it means that it doesn't rely on one person to c
 
 One problem we faced was that some people were working in the main branch and it took a long time to fix the main branch
 template. An easy resolution is just to make sure everyone in the group is made aware to not change anything in the main
-branch when making changes, some people might not know as they don't have a lot of experience with GitHub or it could of
+branch when making changes, some people might not know as they don't have a lot of experience with GitHub or it could have
 been a mistake.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Workflow
-
-This section documents your practical work in week 3.
-
-The main requirements are to show that:
-
-1. You know how to use the workflow tools in GitHub
-2. You have successfully carried out the required operations which are:
-   * Accept a task from the project backlog
-   * Update the task information appropriately
-   * Update the task board appropriately
-   * Complete the development task on a feature branch
-   * Commit your changes with appropriate comments
-   * Check your work against the Definition of Done (DoD)
-   * Make a pull request
-
-## Task workflow
-
-Here, you should use screenshots and descriptive commentary to show that the required
-have been completed successfully.
-
-**DO**
-
-* Consider the layout of your content from the point of view of the reader. Many raw
-  screenshots will take up a lot of space. It may be better to adopt a different strategy
-  such as
-  * Using thumbnails with links to full-size images
-  * Combining two or more screenshots into a single image 
-  * Using partial screenshots to highlight only the important information
-  * etc.
-* Provide links to the actual objects (e.g. task, pull request, etc.) in the team project
-  in GitHub
-* Read through your work to make sure that the information comes across clearly
-
-**DON'T**
-
-* Use humour or informal language
-* Waste space with trivial or self-evident commentary
-* Abbreviate your commentary using (e.g. by using bullet points). Your text should be in
-  the form of grammatically correct sentences.
-
-## Reflection
-
-Here, you should highlight any difficulties that you faced in completing the task, and
-how you resolved them.
-
-You should also briefly discuss the current process and how it could be refined or
-improved in future iterations. For example, is the DoD adequate or too onerous? Is the
-current procedure for updating the task appropriate? Is the task board configured to
-work in an intuitive way?
+\
+There is a way to automatically close an issue once the person who is assigned a task has merged their branch to the
+main branch, this is done by using the keyword 'resolve' in the pull requests description followed up by the task number,
+this case for me it is number 23. If the pull request description says resolve #23, it will resolve the issue automatically
+once it has merged and you can resolve multiple issues in the one pull request. This can make the process of using the 
+task board a lot easier.
