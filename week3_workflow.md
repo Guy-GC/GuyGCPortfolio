@@ -1,3 +1,35 @@
+# Introduction
+
+This entry will go over the workflow tools in GitHub, assigning a task from the issue list, and branching from the main 
+to complete the issue then create a pull request.
+
+# Workflow
+
+We were given the task this week to decide on a standard team workflow that we should follow as a group when we work on
+a GitHub issue, import the list of issues appointed to us into our group project and assign an issue to each person in
+the group and complete it with the team workflow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Workflow
 
 This section documents your practical work in week 3.
