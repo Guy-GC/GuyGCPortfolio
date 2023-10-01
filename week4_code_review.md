@@ -45,6 +45,14 @@ class Car
     }
 }
 ```
+I believe that the first code snippet violates the KISS, YAGNI, and DRY general principles.
+KISS (Keep it Simple, stupid) principle is to do with the readability of the code. The reason 
+why programmers should apply this principle is that the code becomes easier to understand and
+it can be easier to locate and fix bugs when the code is simpler. I believe the code has been 
+made simpler due to removal of the unneccessary class constructor and the Car Ford = new() { Model = "Ford" }; 
+line has been made easier to understand and functions correctly. This principle also kind of
+ties up with the other principle YAGNI (You Ain't Gonna Need It) when something has been partially
+implemented or just dead code you should remove it 
 
 
 
