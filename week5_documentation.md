@@ -16,9 +16,9 @@ within your codespace.
 
 ## Functions
 
-Functions should be kept small, simple; be given a good (and meaningful) name; and should do
+Functions should be kept small, and simple; be given a good (and meaningful) name; and should do
 only one thing. The reason why you should follow this clean code principle. This will make your 
-functions very clear and precise allowing any programmer to understand a function very quickly.
+functions very clear and precise allowing any programmer to understand a function quickly.
 
 ## Comments
 
@@ -27,14 +27,25 @@ be used on code that can be difficult to understand, however, you should conside
 code instead to make it more inspired. It is good for your comment to explain why your code is
 doing something rather than what it is doing.
 
-## Objects and Data Structures
+## Error Handling
+
+Error handling is used to make sure the user has no problems when using your code. Use try and
+catch statements and make sure you can't return null with if statements. Proper error handling can
+lead to more robust code, it may make code harder to read but if done correctly both robustness and
+readability shouldn't really be affected.
 
 ## Formatting
 
+Formatting code is very important and can make your code more easily readable, and adds consistency
+to your code. If you follow the same format throughout the whole code with correct indentation and
+alignment it can make reading your code so much easier, especially, if someone else is reading it.
+
 ## DRY
 
-As mentioned last entry, DRY (Don't Repeat Yourself) is a principle to avoid duplicating code.
-Duplicated code can lead to inconsistencies 
+As mentioned in the last entry, DRY (Don't Repeat Yourself) is a principle to avoid duplicating code.
+Duplicated code can lead to inconsistencies.
+
+
 
 
 
