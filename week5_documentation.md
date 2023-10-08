@@ -6,13 +6,25 @@ comments to stick with the principles of clean codes.
 
 # Rules of Clean Code
 
-There are many rules of clean code, here are six examples of clean code:
+##### There are many rules of clean code, here are six examples of clean code:
 
 ## Meaningful Names
 
 Names are everywhere within software, naming functions, variables, classes etc. Giving names a
 meaningful name makes your code easier to read and makes the functions, variables etc. more searchable
 within your codespace.
+
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/CodeCapture%231.PNG"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.1 - Example of Meaningful Names</b>
+</figcaption>
+</figure>
+
+\
+The highlighted names are good names for my class, private string, and the instance of Car.
+They are given simple and easy-to-understand names which makes them more meaningful than if I
+put a random string of letters together.
 
 ## Functions
 
