@@ -16,13 +16,20 @@ on him so I suggested for him to work with me.
 I chose to do the function within our repository called CheckLetterInWord. The purpose of
 this function is to check if the word in the game Hangman contains a letter that the
 user provides. So if the word is apple and the user guesses 'A' then the function would
-return true, if the user guesses 'Z' the function would return false. We chose to do
-two tests to make sure the function returns the correct boolean answer (so one test for
-true and one test for false).
+return true, if the user guesses 'Z' the function would return false. We did two tests to ensure
+the function returns the correct boolean answer (so one test for true and one test for false).
 
 # Test Code
 
+*insert picture of code here*
 
+Both tests check that the function is returning the correct boolean answer, one for
+true and one for false. I have used the toe for both tests and changed the letter to
+guess the word. The letter A should return False due to the letter 'A' not being in the 
+word 'toe' so the expected answer for the function should be False. The same has been done
+for the other test but the expected answer is True due to the letter 'e' being in the word
+toe. We could have done a test if the word is null (there is no word) or the letter guessed is
+null however these tests should have been done within another function.
 
 
 
@@ -38,7 +45,5 @@ Make sure that is clear in your discussion.
 For each example
 
 Include the test code
-Provide a brief explanation of the test(s) that are performed
-Explain why this is an important aspect of the code to test
 Identify any limitations of your tests (this may be something that you realised after the evaluation).
 Did you manage to write a test which failed during the final evaluation? If so, that would make an excellent example. You should briefly discuss why the writer of the code might have overlooked the particular test case that failed.
