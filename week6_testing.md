@@ -21,29 +21,23 @@ the function returns the correct boolean answer (so one test for true and one te
 
 # Test Code
 
-*insert picture of code here*
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/TestCapture.PNG"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.1 - Unit Test Code</b>
+</figcaption>
+</figure>
 
+\
 Both tests check that the function is returning the correct boolean answer, one for
 true and one for false. I have used the toe for both tests and changed the letter to
 guess the word. The letter A should return False due to the letter 'A' not being in the 
 word 'toe' so the expected answer for the function should be False. The same has been done
 for the other test but the expected answer is True due to the letter 'e' being in the word
-toe. We could have done a test if the word is null (there is no word) or the letter guessed is
-null however these tests should have been done within another function.
+toe.
 
-
-
-
-
-
-
-The practical exercise in week 6 involved competitive testing. For your portfolio entry,
-select two pieces of test code that you wrote that best illustrate your skills in this area.
-If you were working with someone else - for example, while using pair programming - 
-Make sure that is clear in your discussion.
-
-For each example
-
-Include the test code
-Identify any limitations of your tests (this may be something that you realised after the evaluation).
-Did you manage to write a test which failed during the final evaluation? If so, that would make an excellent example. You should briefly discuss why the writer of the code might have overlooked the particular test case that failed.
+\
+We could have done a test if the word is null (there is no word) or the letter guessed is
+null however these tests should have been done within another function. It may just be good
+practice to do these tests, I think another person might have done the null test for the same
+function that me and my partner did.
