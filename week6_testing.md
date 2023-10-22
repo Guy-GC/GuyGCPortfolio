@@ -41,3 +41,10 @@ We could have done a test if the word is null (there is no word) or the letter g
 null however these tests should have been done within another function. It may just be good
 practice to do these tests, I think another person might have done the null test for the same
 function that me and my partner did.
+
+# Post Code Battles
+
+We had an issue with our select word test which threw errors across the testing. There was a file
+path within that test which needed to be changed to a relative path. All the functions call the select
+word function which led to all the errors. Apart from this problem, our CheckLetterInWord testing would 
+have succeeded which is great considering the little testing I have done in the past.
