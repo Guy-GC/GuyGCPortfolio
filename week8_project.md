@@ -27,30 +27,43 @@ over-comment nor make comments that just state the obvious. The first comment is
 show further improvements later down the line which in this case is to create a spreadsheet
 with all the event data so it can be saved and then accessed later on. I have kept the code
 overall pretty simple, adding variables to the meetings list, and creating event handlers so
-I can create 
+I can create classes that run when a button is pressed or when the date picker has changed values.
+The use of whitespace makes the code look a lot more readable and doing so makes it look clean.
 
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/CodeCapture%236.PNG"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.1 - Code Snippet #2</b>
+</figcaption>
+</figure>
 
+\
+I have kept this function very basic just adding the user-inputted into a list when the user clicks
+the 'add event' button and then displays that the event has been saved into the list. The code follows
+other software design principles such as YAGNI, DRY, and KISS. You could make an argument that the change
+of text for the label isn't necessarily needed but I believe that it lets the user know if the event has
+properly saved.
 
+The only thing close to a test that I have done is the if-else statement making sure there can't be no
+description of the event. The user story isn't quite complete but this task I think takes more time than
+a lot of other issues. I still need to make a proper unit test plus the proper implementation of the delete
+and update buttons.
 
+# Code Review
 
+I received a very good review saying that my code is clean and understandable with no changes to be made
+to my code. Due to conflicts with the .csproj file and the actual issue not fully being complete, my
+code has not been merged into the main branch which means the code review I received is just general
+feedback.
 
+# Summary
 
-In week 8, you are exercising all the principles and techniques that have been discussed 
-in the module so far. Your portfolio entry should demonstrate your ability to integrate 
-the various dimensions of software engineering into your practice. It should include 
+two problems that could arise are there could be a lot of issues trying to merge into the main with so many
+small changes being made in lots of different branches. Another problem is if both the coder and the reviewer
+don't see any problems/code smells it might lead to another person having to review the code this can result in
+a lot of time being wasted on reviewing rather than fixing issues. I worked on my project in a file on my computer
+(not on the branch within the repository). I do this because I don't want to make changes in the mainpage file
+in the repository as it will lead to conflicts and isn't the biggest priority at the moment.
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
-
-Be sure to include links to the original items in the team's GitHub repository.
-
+Link to my XAML [code](https://github.com/wardliii/Green-Team/blob/Guy's_Branch_v2/Calendar.xaml) and the C#
+[code](https://github.com/wardliii/Green-Team/blob/Guy's_Branch_v2/Calendar.xaml.cs) in the GitHub repository.
