@@ -34,7 +34,49 @@ that is not needed as I can just use the list to get the date. I thought when I 
 it there was an issue taking the value from the list and assigning it to a DateTime data type. This
 is the reason why I had to use a string split and then put all the strings together then convert the
 string to DateTime. This a very good example of the KISS and YAGNI principles as the updated version
-is a lot simpler and removes unnecessary variables that I do not need anymore and the string splits.
+is a lot simpler and removes unnecessary variables that I do not need anymore and the multiple string
+splits that are redundant.
+
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/CodeCapture%239.PNG"
+width="100%" alt="drawing"/>
+<figcaption <b>Fig.3 - Code Snippet From Update Function</b>
+</figcaption>
+</figure>
+
+\
+I have used the KISS principle keeping the code short and understandable, comparing the
+user-inputted date with the dates stored in the list and changing the values within the
+list at the correct index.
+
+# Code Review
+
+The code review was very positive agreeing with the good code principles. This is part of
+the review:
+```
+The code appears to be well-written with good naming conventions.
+it is clear and self-explanatory. the class itself could benefit from documentation
+comments at the top to summaries the purpose of the class.
+I can see you have made changes to simplify the code following the Kiss principle.
+The code appears fine for merging and contains no conflicts
+```
+
+but with the suggestion of one change which is:
+
+```
+lines 126- 128 seem like they could benefit from being in their own method to
+minimize duplicate code this code is also used in lines 71 to 73.
+```
+
+This is something I did notice when creating the different functions but decided to
+just leave it. Maybe if I created another function that cycles through the list I might
+make a function that does cycle through the list to stay in DRY code.
+
+# Summary
+
+As mentioned last week, the team development process isn't the best. I thought that maybe instead
+of every week we create code, create tests, review, and if needed fix code that has been flagged
+in review. We could
 
 
 
