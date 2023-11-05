@@ -56,13 +56,13 @@ the review:
 ```
 The code appears to be well-written with good naming conventions.
 it is clear and self-explanatory. the class itself could benefit from documentation
-comments at the top to summaries the purpose of the class.
+comments at the top to summarise the purpose of the class.
 I can see you have made changes to simplify the code following the Kiss principle.
 The code appears fine for merging and contains no conflicts
 ```
 
-but with the suggestion of one change which is:
-
+The suggestion of adding summaries to the code is very valid and can be easily
+added with very minimal time taken. The next suggestion is the following:
 ```
 lines 126- 128 seem like they could benefit from being in their own method to
 minimize duplicate code this code is also used in lines 71 to 73.
@@ -76,39 +76,12 @@ make a function that does cycle through the list to stay in DRY code.
 
 As mentioned last week, the team development process isn't the best. I thought that maybe instead
 of every week we create code, create tests, review, and if needed fix code that has been flagged
-in review. We could
+in review. We could give ourselves a deadline for the code and unit tests, and a deadline for the reviews
+as this could result in more rigorous reviewing and more suggestions to change the code in the review.
+I think this week I used a better application of the principles of clean code with the string split
+section I mentioned earlier. As a team, we decided to prioritise focusing on working towards completing
+the issues remotely as testing has caused problems. we plan to discuss in person implementing testing
+moving forward for week 9 if possible.
 
-
-
-
-
-# Project work 2
-
-In week 9, you are continuing with the team project. Your portfolio entry should 
-demonstrate how your software engineering practice is improving. It should include
-much the same content as last week's:
-
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
-
-Be sure to include links to the original items in the team's GitHub repository.
-
-In the reflective sections, try to identify things that you have done better this week. 
-This could include, for example,
-
-* Better application of the principles of clean code.
-* Avoiding the repetition of previous mistakes.
-* More comprehensive test coverage.
-* Adoption of a more systematic personal workflow.
-* Improved identification of problems in other people's code.
-* etc.
+Link to my XAML [Code](https://github.com/wardliii/Green-Team/blob/main/Calendar.xaml) and the C#
+[Code](https://github.com/wardliii/Green-Team/blob/main/Calendar.xaml.cs) in the GitHub repository.
