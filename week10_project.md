@@ -87,3 +87,5 @@ with an event. If I have the chance to work on another issue that isn't a follow
 do it, but if not I will create a database for the calendar and then do testing. I realised that the reason why to create
 a summary rather than just general comments within the code is that you can hover over each method called and your summary
 comments are shown to explain which is much more informative.
+
+Link to my C# [Code](https://github.com/wardliii/Green-Team/blob/Guy's-Branch-v4/Calendar.xaml.cs)
