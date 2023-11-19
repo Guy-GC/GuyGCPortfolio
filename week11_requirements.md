@@ -20,6 +20,11 @@ namespace CalendarTest
 {
     public class UNDACCalendarUnitTests
     {
+        /// <summary>
+        /// This test is used to check if the loop_Events function
+        /// returns false as there is no event within the list with
+        /// the details within the test.
+        /// </summary>
         [Fact]
         public void Test_No_Similarity_Checker()
         {
@@ -29,6 +34,11 @@ namespace CalendarTest
             bool expected = false;
             Assert.Equal(expected, UNDAC_App.Calendar.Loop_events(datetime,1));
         }
+        /// <summary>
+        /// This test is to make sure the delete option for the loop_Events
+        /// function works when the two dates are the same. The function should
+        /// return true.
+        /// </summary>
         [Fact]
         public void Test_Delete_Checker()
         {
@@ -38,6 +48,11 @@ namespace CalendarTest
             bool expected = true;
             Assert.Equal(expected, UNDAC_App.Calendar.Loop_events(datetime, 0));
         }
+        /// <summary>
+        /// This test is to make sure the update option for the loop_Events
+        /// function works when the two dates are the same. The function should
+        /// return true.
+        /// </summary>
         [Fact]
         public void Test_Update_Checker()
         {
@@ -55,7 +70,9 @@ I decided to make three tests; one is for a meeting that isn't in the sample mee
 for the delete option within the function, and the last is for the update option within the 
 function. All of these tests are for the Loop_events function and the first test should return
 false as there is no meeting that can be updated or deleted, and the other two tests should return
-true.
+true. The code uses the summary comments which is a very good coding principle as it helps anyone
+else trying to read my code to understand it a lot quicker than trying to figure it out with no
+comments.
 
 For some reason, I wasn't able to link the unit tests with the UNDAC project. I do know of someone
 else who had similar issues but they were able to link the project and the unit tests. However, when
