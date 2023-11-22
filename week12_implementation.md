@@ -1,29 +1,44 @@
-# Implementation
+# Introduction
 
-Week 12 aims to integrate everything covered in the module.
+This entry will go over the addition of the NoOverlap function to make sure two or more events don't run at the same time
+or overlap. I will also go over all the pull requests I commented on and what changes I suggested for those pull requests.
 
-Your portfolio entry should demonstrate your abilities, highlight improvements that you
-have made during the course of the module and show your capacity to learn from experience
-through clear analytical reflection. The structure of this entry is similar to those from 
-weeks 8-10:
+# Issue For This Week
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+I decided to continue and finish the calendar issue by adding a function that detects events that overlap with one another.
+This function will be used when an event is created or updated, it doesn't need to be used for deleting an event as it 
+can't overlap with another event if it doesn't exist. This is a code snippet of the NoOverlap function:
 
-Be sure to include links to the original items in the team's GitHub repository.
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/CodeCapture%2315.PNG"
+width="100%" alt="drawing" />
+<figcaption <b>Fig.1 - New NoOverlap function</b>
+</figcaption>
+</figure>
 
-As with the earlier entries related to the team project, the reflective sections should
-consider your own practice and team processes. In addition, this is a good point to
-include your thoughts on the general challenges related to working in a software
-development team and the most effective methods to streamline operations and to safeguard
-the quality of the end product.
+\
+I decided to use for each when looping through all the meetings as there is less to write with a for each statement than a
+for statement with an integer that goes through each element within the list. This is a good example of the DRY principle
+as it keeps the code a little simpler by reducing the number of characters, it makes the code look a lot easier to understand,
+and it still does the same as a regular for loop. I also made sure that if a meeting ends at 4 PM and another one starts at
+4 PM that this isn't considered an overlap.
+
+I have also used other good coding principles like good commenting. I have made a summary of the function explaining what
+it does, and only used comments within the function whenever some bits of code needed a little explaining.
+
+I made the function a bool for the same reason the LoopEvent function is also a bool. I used if statements that refer to the
+function as shown below:
+
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/CodeCapture%2316.PNG"
+width="100%" alt="drawing" />
+<figcaption <b>Fig.2 - NoOverlap call in If Statement in LoopEvents function for Updating Events</b>
+</figcaption>
+</figure>
+
+<figure>
+<img src="https://github.com/Guy-GC/GuyGCPortfolio/blob/main/images/CodeCapture%2317.PNG"
+width="100%" alt="drawing" />
+<figcaption <b>Fig.3 - NoOverlap call in If Statement in AddEvent function</b>
+</figcaption>
+</figure>
