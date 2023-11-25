@@ -45,7 +45,39 @@ width="100%" alt="drawing" />
 
 # Code Review
 
-** Insert My Own Code Review **
+My code review was very positive with one little fix to do. here is the code review
+
+```
+Nice quality of life addition to the calendar feature. Code looks good and clean, no code smells exhibited and KISS, DRY and YAGNI seem to have been followed. Only suggestion/comment is that the code comments aren't exactly necessary as the code is self describing, but that is more of a subjective choice.
+
+I would also suggest the No_overlap function name should follow PascalCase as per C# coding convetions, and so should be No_Overlap or even OnNoOverlap potentially.
+
+Other than that the function is clearly laid out and written, the parameters are suitable and it is of an appropriate length, while only dealing with one thing.
+```
+\
+This was a simple fix and was sorted within minutes, the names of each functions being PascalCase, and some comments remove as they were
+redundant.
+
+The code review I did for someone else had one small fix it could of done. The code didn't have any summaries and not a lot
+of commments. Here is an example:
+
+```C#
+private void OnEquipmentDeleted(object sender, EventArgs e)
+{
+        var button = sender as Button;
+        var selectedEquipment = button?.CommandParameter as Equipment;
+
+        if (selectedEquipment != null)
+        {
+            equipmentManager.DeleteEquipment(selectedEquipment.Id);
+
+            EquipmentList.Remove(selectedEquipment);
+        }
+}
+```
+\
+I suggested to add summaries to make the code more understandable without having to overcommment within the blocks of code
+it self
 
 I'm going to go over all the code reviews I did for other people's issues with the provided original code and then my suggestion
 for what to change in their code. The first change I suggested for a code was to remove an extra else statement. Here is the original
@@ -175,4 +207,5 @@ the conflicts were comparing an old version of my file with some aspects of the 
 to have all of my new code but when I merged the branch it merged the main branch into my branch which is very strange 
 as there was no difference in the process of creating new code, making a new branch, and creating a pull request. It took
 some time to fix but this was a very interesting issue. I did mention that it could be because of the file being moved into 
-the Views folder, but I am still not 100% sure what the actual problem was.
+the Views folder, but I am still not 100% sure what the actual problem was. This probably could have been avoided if
+I maybe waited till all the files have been sorted or completed the task before.
